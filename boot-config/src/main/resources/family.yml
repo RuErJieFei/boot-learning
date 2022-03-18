@@ -1,0 +1,18 @@
+family:
+  family-name: "happy family"
+  father:
+    name: tom
+    age: ${random.int(22,44)}
+    email: aaa@sina.com
+  mother:
+    alias:
+      - rose
+      - alice
+  child:
+    name: jack
+    age: 6
+    friends:
+      - hobby: football
+        gender: male
+      - hobby: sing
+        gender: female

@@ -1,0 +1,7 @@
+user:
+  name: "YOJI"
+  age: 12
+  book:
+    name: "YAMAMOTO"
+    price: 512
+    publicTime: 2023-01-01 12:12:12

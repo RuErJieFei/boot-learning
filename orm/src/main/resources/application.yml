@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: apply
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://106.14.168.40:3306/java_web?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: Ssy@2021
+    hikari:
+      max-lifetime: 0
+      connection-timeout: 1000

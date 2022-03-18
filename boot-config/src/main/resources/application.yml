@@ -1,0 +1,36 @@
+#family:
+#  family-name: "happy family"
+#  father:
+#    name: tom
+#    age: ${random.int(22,44)}
+#    email: aaa@sina.com
+#  mother:
+#    alias:
+#      - rose
+#      - alice
+#  child:
+#    name: jack
+#    age: 6
+#    friends:
+#      - hobby: football
+#        gender: male
+#      - hobby: sing
+#        gender: female
+#
+#spring:
+#  profiles:
+#    active: dev
+
+server:
+  port: 9090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://106.14.168.40:3306/ltgateway?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+    username: ENC(/pZyYENcHLUp/fRXrJabcLfExtEF+3tkg6QB3yOZ6p0xF2OMgI1E9rYNAXVga37g)
+    password: ENC(Jor7GOhc1CyiDfCDGeZ1F1uFjUb5UGrGD558uYclO2iDQdjX+Lq2YkaVFGgHpDG3)
+
+jasypt:
+  encryptor:
+    password: encryptor
